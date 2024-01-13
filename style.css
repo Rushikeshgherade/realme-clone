@@ -1,0 +1,531 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* .......... navbar ----------- */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+   box-shadow: 2px 0px 5px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 100000;
+    background-color: white;
+}
+
+.logo img{
+    height: 25px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.bar{
+    display: none;
+}
+
+ .menu a:hover{
+    color: orange;
+ }
+ .search{
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(245, 244, 244);
+    padding: 10px 10px;
+    width: 300px;
+   
+ }
+ 
+.searchDiv i{
+   
+    font-size: 20px;
+    
+}
+
+/* ----------- crouser css------------ */
+
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+}
+
+section{ 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 100px;
+    flex-wrap: wrap;
+
+}
+
+.lottery{
+    cursor: pointer;
+}
+
+.lottery img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+
+.lottery img{
+    height: 100px;
+
+}
+
+.lottery p{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.left{
+    width: 50%;
+    padding: 0px 20px;
+}
+.right{
+    width: 50%;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.deals{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deals_cont img{
+    height: 150px;
+    cursor: pointer;
+}
+
+.deals_cont *{
+   text-align: center;
+}
+
+
+.deals_cont {
+    margin-top: 20px;
+}
+
+.deals_cont img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    
+}
+
+.best_seller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+        margin: 0px 100px;
+}
+
+.best_seller i{
+    font-size: 50px;
+}
+
+.best_seller:hover{
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.left_side{
+    /* background-image: url("https://image01.realme.net/general/20231229/170386994620161bfe9adc38e47d99a284026304c70af.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    width: 50%;
+    border-radius: 20px;
+    overflow: hidden;   
+}
+
+.left_side img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.right_side{
+    height: 800px;
+    width: 50%;
+    
+}
+.favorite{
+    display: flex;
+    gap: 30px;
+    padding: 0px 100px;
+    
+}
+.up{
+    /* background-image: url("https://image01.realme.net/general/20231218/170289278115990a3f85fcf18487ab4458fa57f2477b6.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    height: 50%;
+    border-radius: 20px;
+    overflow: hidden;   
+}
+.dowen{
+    /* background-image: url("https://image01.realme.net/general/20231115/17000537691055fa30ad928a9494d89ce06711d51a7ea.jpg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    height: 47.5%;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;   
+}
+
+.up img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.dowen img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.left_side img:hover  {
+    transform: scale(1.1);
+    transition: 1.2s ease-in-out;
+
+}
+.up img:hover  {
+    transform: scale(1.1);
+    transition: 1.2s ease-in-out;
+
+}
+.dowen img:hover  {
+    transform: scale(1.1);
+    transition: 1.2s ease-in-out;
+
+}
+
+/* ........ footer css ---------- */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0px 20px 0px;
+    flex-wrap: wrap;
+
+}
+
+footer h1:first-child{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact_us button{
+    border: 1px solid ;
+    border-radius: 50px;
+    padding: 5px 20px;
+
+}
+.recomended_list a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact_us{
+    text-align: center;
+   
+}
+.contact_us h1{
+    font-size: 25px;
+    padding: 0px;
+}
+
+.icon i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px 40px 100px;
+}
+
+.copy p{
+   font-size: 10px;
+   color: rgb(124, 124, 124);
+   
+}
+
+.copy_cont2{
+    display: flex;
+    gap: 10px;
+
+}
+
+/* --------- product list css ---------- */
+
+.all_product{
+    display: flex;
+    justify-content: space-between;
+   
+}
+select{
+    border: 1px solid;
+    padding: 5px;
+    height: 40px;
+}
+
+select:focus{
+    outline: none;
+}
+
+.row_1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+   
+}
+.col_1{
+    flex-basis: 20%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    
+    transition: transform 0.5s;
+}
+
+
+.col_1:hover{
+ transform: translateY(-5px);
+
+}
+
+ 
+.product_img{
+    flex: 1;
+    margin: 0 10px;
+}
+.product_img img{
+    width: 100%;
+   height: auto;
+  
+}
+
+
+.phone_product{
+    padding: 20px 100px;
+}
+
+.spacification{
+    margin-top: 30px;
+}
+.detail p{
+    font-weight: bold;
+}
+
+.spacificatil_list li{
+    list-style: disc;
+
+}
+.detail span {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+    font-size: 15px;
+
+}
+
+.pricing p{
+    text-decoration: line-through;
+    font-size: 15px;
+    color: grey;
+    margin-top: -10px;
+}
+
+.heart-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Default heart icon style */
+  .fa-heart {
+    color: #000; /* Default color */
+  }
+
+  .fa-heart.red {
+    color: red;
+  }
+
+  .page-btn{
+    margin: 0 auto 80px;
+  }
+
+  .page-btn  span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+  background-color: #ff523b;
+  color: white;
+}
+
+/* ---------- single producy ------------ */
+.product_single{
+    display: flex;
+    justify-content: center;
+    padding: 20px 100px;
+    
+}
+
+.detail_2{
+    flex-basis: 50%;
+    
+    border: 1px solid;
+    width: 300px; /* Set the width of your container div */
+    height: 550px; /* Set the height of your container div */
+   /* Hide any content that overflows the container */
+}
+.detail_2 img{
+    max-width: 100%;    
+    max-height: 100%;
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.row-img{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.img-col img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    flex-basis: 20%;
+}
+
+
+ @media (max-width:786px){
+
+   
+.bar{
+    display: block;
+    margin-right: 50px;
+}
+
+.searchDiv{
+    display: none;
+        
+ }
+
+ nav{
+   
+    padding:0px;
+    
+}
+    .menu{
+        position: fixed;
+        top: 10px;
+        display: block;
+       background:rgba(52, 133, 246, 0.5) ;
+       width: 100%;
+       height: 100vh;
+        z-index: 1;
+       display: none;
+    }
+
+    
+    .menu li{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 30px;
+
+    }
+
+    article{
+        display: block;
+        
+        
+    }
+
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .favorite{
+        display: block;
+        padding: 0px 10px;
+        
+    }
+
+    .left_side{
+        width: 100%;
+    }
+    .right_side{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    
+
+    .phone_product{
+        padding: 20px 50px;
+    }
+
+    .col_1{
+       width: 100%;
+    }
+ }
